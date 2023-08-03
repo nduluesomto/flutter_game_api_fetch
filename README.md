@@ -1,16 +1,39 @@
 # flutter_game_api
 
-A Flutter App using HTTP to fetch API data, auto_route, and freezed
+A Flutter App using HTTP to fetch API data, auto_route, BLOC architecture, and freezed.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### External Dependencies
+- bloc
+- flutter_bloc
+- HTTP
+- freezed
+- json_annotation
+- auto_route
+- cupertion_icons
+- build_runner
+- json_serializable
+- auto_route_generator
 
-A few resources to get you started if this is your first Flutter project:
+## Folder Structure
+Here is the core folder structure which flutter provides.
+<code>
+flutter-game_api_app/
+ |- android
+ |- build
+ |- ios
+ |- lib
+ |- test
+ </code>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Folder structures used in this project
+<code> 
+  lib/
+  |- game_bloc/
+  |- models/
+  |- repository/
+  |- routes
+  |- screens
+  |- widgets
+</code>
